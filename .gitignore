@@ -1,0 +1,43 @@
+# Logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Build directories
+# build
+versions
+webpack.stats.json
+
+# Dependency directory
+# Deployed apps should consider commenting this line out:
+# see https://npmjs.org/doc/faq.html#Should-I-check-my-node_modules-folder-into-git
+node_modules
+npm-debug.log
+npm-debug.log.*
+
+# hide intellij project files
+.idea/
+.idea/*
+.idea
+*.iml
+
+# hide Sublime settings
+.sublimelinterrc
+sftp-config.json
+sftp-settings.json
+
+# developers use macs
+.DS_Store
+
+# ops managed configs
+config_managed
+
+# ci files
+ci.out
+test-results.xml
+
+# generated coverage reports
+coverage
