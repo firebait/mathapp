@@ -4,6 +4,8 @@
   "description": "Math practice for my daugther",
   "main": "index.js",
   "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,5 +29,8 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "webpack": "^3.6.0"
-  }
+  },
+  "engines": {
+    "node": "6"
+  },
 }

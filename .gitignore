@@ -7,7 +7,7 @@ pids
 *.seed
 
 # Build directories
-# build
+build
 versions
 webpack.stats.json
 
